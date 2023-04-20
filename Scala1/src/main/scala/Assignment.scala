@@ -160,7 +160,10 @@ object Assignment {
         println(k+":"+v)
       }
     }
-
+    checkpoint1(1900,1950,"D.W. Griffith")
+    checkpoint2(500)
+    checkpoint3(1912,"USA")
+    checkpoint4("USA",100)
     checkpoint5("$100","$25000","Romania")
   }
 
@@ -176,4 +179,5 @@ object Assignment {
 
   def main(args: Array[String]): Unit = {
   }
+
 }
